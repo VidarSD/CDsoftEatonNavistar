@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#f2f2f2"
+    android:gravity="center">
+    <ProgressBar
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generando reporte ..."
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

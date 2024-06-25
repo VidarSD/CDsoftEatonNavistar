@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#f2f2f2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Agregar Cliente"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txtnewclient"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nombre del Cliente"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:background="@drawable/custom_input" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btninsertarcliente"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/yellow_btn"
+        android:text="Agregar"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btncancelnsertcliente"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/yellow_btn"
+        android:text="Cancelar"
+        />
+
+</LinearLayout>

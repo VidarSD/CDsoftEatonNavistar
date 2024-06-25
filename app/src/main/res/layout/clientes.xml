@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione un cliente para continuar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="20sp"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <ListView
+        android:id="@+id/lvdeletecliente"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <TextView
+        android:id="@+id/txtdeleteselectedclient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciente no seleccionado"
+        android:textAlignment="center"
+        android:layout_margin="20sp"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_medium"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btndeletecliente"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/yellow_btn"
+        android:text="Continuar  -->"
+        />
+
+
+</LinearLayout>
